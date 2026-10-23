@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "steam-topshelf.png",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "steam-topshelf@2x.png",
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

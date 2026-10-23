@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039C0419BC014A529D880F91 /* SteamTopShelf.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 380F6396823A43F5A1A1D0D3 /* SteamTopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A6F3F582F8A5EB600C9DB31 /* LiveKitWebRTC in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6F3F572F8A5EB600C9DB31 /* LiveKitWebRTC */; };
+		5A6F3F612F8B500100C9DB31 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6F3F622F8B500100C9DB31 /* OpenSSL */; };
+		A11CE0010000000000000001 /* PunktfunkKit in Frameworks */ = {isa = PBXBuildFile; productRef = A11CE0020000000000000001 /* PunktfunkKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1471CB48E0554FB88C996BB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A6F3F292F8A5B1C00C9DB31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5B72C1BD364628AE79142B;
+			remoteInfo = SteamTopShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4BBF92E1EC44D4BA340911F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				039C0419BC014A529D880F91 /* SteamTopShelf.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		380F6396823A43F5A1A1D0D3 /* SteamTopShelf.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SteamTopShelf.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6F3F312F8A5B1C00C9DB31 /* Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5A6F3F602F8A5F8700C9DB31 /* Exceptions for "Steam" folder in "Steam" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5A6F3F302F8A5B1C00C9DB31 /* Steam */;
+		};
+		6E7B7B78F032422CAB16F99A /* Exceptions for "SteamTopShelf" folder in "SteamTopShelf" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AB5B72C1BD364628AE79142B /* SteamTopShelf */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52C2DC5BB4BA4174820584D4 /* SteamTopShelf */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E7B7B78F032422CAB16F99A /* Exceptions for "SteamTopShelf" folder in "SteamTopShelf" target */,
+			);
+			path = SteamTopShelf;
+			sourceTree = "<group>";
+		};
+		5A6F3F332F8A5B1C00C9DB31 /* Steam */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5A6F3F602F8A5F8700C9DB31 /* Exceptions for "Steam" folder in "Steam" target */,
+			);
+			path = Steam;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		135339C45FCF4A8DA0777827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6F3F2E2F8A5B1C00C9DB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6F3F582F8A5EB600C9DB31 /* LiveKitWebRTC in Frameworks */,
+				5A6F3F612F8B500100C9DB31 /* OpenSSL in Frameworks */,
+				A11CE0010000000000000001 /* PunktfunkKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A6F3F282F8A5B1C00C9DB31 = {
+			isa = PBXGroup;
+			children = (
+				5A6F3F332F8A5B1C00C9DB31 /* Steam */,
+				52C2DC5BB4BA4174820584D4 /* SteamTopShelf */,
+				5A6F3F322F8A5B1C00C9DB31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A6F3F322F8A5B1C00C9DB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6F3F312F8A5B1C00C9DB31 /* Steam.app */,
+				380F6396823A43F5A1A1D0D3 /* SteamTopShelf.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A6F3F302F8A5B1C00C9DB31 /* Steam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6F3F3C2F8A5B1D00C9DB31 /* Build configuration list for PBXNativeTarget "Steam" */;
+			buildPhases = (
+				5A6F3F2D2F8A5B1C00C9DB31 /* Sources */,
+				5A6F3F2E2F8A5B1C00C9DB31 /* Frameworks */,
+				5A6F3F2F2F8A5B1C00C9DB31 /* Resources */,
+				C1A010E4F82B4FA8A711D00A /* Embed PyroWave Runtime */,
+				B4BBF92E1EC44D4BA340911F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04B15C562D24BBFA94B59DF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A6F3F332F8A5B1C00C9DB31 /* Steam */,
+			);
+			name = Steam;
+			packageProductDependencies = (
+				5A6F3F572F8A5EB600C9DB31 /* LiveKitWebRTC */,
+				5A6F3F622F8B500100C9DB31 /* OpenSSL */,
+				A11CE0020000000000000001 /* PunktfunkKit */,
+			);
+			productName = Steam;
+			productReference = 5A6F3F312F8A5B1C00C9DB31 /* Steam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5B72C1BD364628AE79142B /* SteamTopShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E31952B6B8E44735A18347A8 /* Build configuration list for PBXNativeTarget "SteamTopShelf" */;
+			buildPhases = (
+				7BC4C025696F441899BB7C9E /* Sources */,
+				135339C45FCF4A8DA0777827 /* Frameworks */,
+				0E28BD87E0B140B493C06A5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52C2DC5BB4BA4174820584D4 /* SteamTopShelf */,
+			);
+			name = SteamTopShelf;
+			packageProductDependencies = (
+			);
+			productName = SteamTopShelf;
+			productReference = 380F6396823A43F5A1A1D0D3 /* SteamTopShelf.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A6F3F292F8A5B1C00C9DB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					5A6F3F302F8A5B1C00C9DB31 = {
+						CreatedOnToolsVersion = 26.4;
+						SystemCapabilities = {
+							com.apple.GameControllers.appletvos = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+					AB5B72C1BD364628AE79142B = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 5A6F3F2C2F8A5B1C00C9DB31 /* Build configuration list for PBXProject "SolarflareSteam" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A6F3F282F8A5B1C00C9DB31;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A6F3F562F8A5EB600C9DB31 /* XCRemoteSwiftPackageReference "webrtc-xcframework" */,
+				5A6F3F632F8B500100C9DB31 /* XCRemoteSwiftPackageReference "OpenSSL-Package" */,
+				A11CE0030000000000000001 /* XCLocalSwiftPackageReference "../../punktfunk/clients/apple" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A6F3F322F8A5B1C00C9DB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A6F3F302F8A5B1C00C9DB31 /* Steam */,
+				AB5B72C1BD364628AE79142B /* SteamTopShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E28BD87E0B140B493C06A5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6F3F2F2F8A5B1C00C9DB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1A010E4F82B4FA8A711D00A /* Embed PyroWave Runtime */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(PROJECT_DIR)/Scripts/embed-pyrowave-runtime.sh",
+				"$(PROJECT_DIR)/Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib",
+				"$(PROJECT_DIR)/Runtime/PyroWave/MoltenVK.framework",
+			);
+			name = "Embed PyroWave Runtime";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/libpyrowave-shared.0.dylib",
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MoltenVK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"${PROJECT_DIR}/Scripts/embed-pyrowave-runtime.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6F3F2D2F8A5B1C00C9DB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC4C025696F441899BB7C9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04B15C562D24BBFA94B59DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5B72C1BD364628AE79142B /* SteamTopShelf */;
+			targetProxy = 1471CB48E0554FB88C996BB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A6F3F3A2F8A5B1D00C9DB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QJBAS8766Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = x86_64;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		5A6F3F3B2F8A5B1D00C9DB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QJBAS8766Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=appletvsimulator*]" = x86_64;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 26.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A6F3F3D2F8A5B1D00C9DB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Steam/Steam.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 286K3K83X3;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					HAS_SOCKLEN_T,
+					NDEBUG,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/src",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-ios/libs/opus/include",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/enet/include",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors/deps",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors/deps/obl",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors/deps/simde",
+				);
+				INFOPLIST_FILE = Steam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Steam Solarflare";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Steam can forward microphone audio to the BC-250 Sunshine session.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=appletvos*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-ios/libs/opus/lib/tvOS",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=appletvsimulator*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-ios/libs/opus/lib/tvOS-Sim",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lopus",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.SteamSolarflareTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Steam/Steam-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		5A6F3F3E2F8A5B1D00C9DB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Steam/Steam.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 286K3K83X3;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					HAS_SOCKLEN_T,
+					NDEBUG,
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/src",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-ios/libs/opus/include",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/enet/include",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors/deps",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors/deps/obl",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-common-c/nanors/deps/simde",
+				);
+				INFOPLIST_FILE = Steam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Steam Solarflare";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Steam can forward microphone audio to the BC-250 Sunshine session.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=appletvos*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-ios/libs/opus/lib/tvOS",
+				);
+				"LIBRARY_SEARCH_PATHS[sdk=appletvsimulator*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThirdParty/moonlight-ios/libs/opus/lib/tvOS-Sim",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lopus",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.SteamSolarflareTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Steam/Steam-Bridging-Header.h";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		B975174AF7F2479CB7C5B614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = SteamTopShelf/SteamTopShelf.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 286K3K83X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SteamTopShelf/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Steam Top Shelf";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.SteamSolarflareTV.TopShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		CC51CF384B5545EFB5DDA23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = SteamTopShelf/SteamTopShelf.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 286K3K83X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SteamTopShelf/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Steam Top Shelf";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.SteamSolarflareTV.TopShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A6F3F2C2F8A5B1C00C9DB31 /* Build configuration list for PBXProject "SolarflareSteam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6F3F3A2F8A5B1D00C9DB31 /* Debug */,
+				5A6F3F3B2F8A5B1D00C9DB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6F3F3C2F8A5B1D00C9DB31 /* Build configuration list for PBXNativeTarget "Steam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6F3F3D2F8A5B1D00C9DB31 /* Debug */,
+				5A6F3F3E2F8A5B1D00C9DB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E31952B6B8E44735A18347A8 /* Build configuration list for PBXNativeTarget "SteamTopShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC51CF384B5545EFB5DDA23F /* Debug */,
+				B975174AF7F2479CB7C5B614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A11CE0030000000000000001 /* XCLocalSwiftPackageReference "../../punktfunk/clients/apple" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../punktfunk/clients/apple;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A6F3F562F8A5EB600C9DB31 /* XCRemoteSwiftPackageReference "webrtc-xcframework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/livekit/webrtc-xcframework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 144.7559.3;
+			};
+		};
+		5A6F3F632F8B500100C9DB31 /* XCRemoteSwiftPackageReference "OpenSSL-Package" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL-Package.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.5004;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A6F3F572F8A5EB600C9DB31 /* LiveKitWebRTC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6F3F562F8A5EB600C9DB31 /* XCRemoteSwiftPackageReference "webrtc-xcframework" */;
+			productName = LiveKitWebRTC;
+		};
+		5A6F3F622F8B500100C9DB31 /* OpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6F3F632F8B500100C9DB31 /* XCRemoteSwiftPackageReference "OpenSSL-Package" */;
+			productName = OpenSSL;
+		};
+		A11CE0020000000000000001 /* PunktfunkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PunktfunkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A6F3F292F8A5B1C00C9DB31 /* Project object */;
+}
