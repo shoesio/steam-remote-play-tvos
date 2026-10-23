@@ -1,29 +1,30 @@
-# Steam Solarflare for Apple TV
+# Steam Remote Play for tvOS
 
-Private development repository for the tvOS Steam streaming client, using
-Solarflare's PyroWave video path and the existing GPU renderer.
+Apple TV client that connects directly to Steam Remote Play on your PC.
 
-Includes the tvOS app, Settings bundle, Top Shelf extension, ambient lighting,
-HomeKit power controls, Moonlight pairing/session code and surround audio.
+## Features
 
-## Open and build
+- Steam host discovery and PIN pairing.
+- PyroWave video decoding and GPU presentation.
+- Gamepad input and streaming audio.
+- Top Shelf recently played games with direct launch links and library actions.
+- HomeKit power-on and preferences in tvOS Settings.
 
-Open `SolarflareSteam.xcodeproj` in Xcode and select the `Steam` scheme and an
-Apple TV destination. Configure your own signing team and provisioning.
+## Build
 
-The current project references a **local external dependency** at
-`../../punktfunk/clients/apple`. That Punktfunk checkout (including its native
-framework) is required; this repository alone is not yet a standalone build.
-Keep the existing relative folder layout, or update the local package reference
-in Xcode to your Punktfunk checkout.
+Open `SteamTV.xcodeproj`, select the SteamTV scheme and your Apple TV, and
+configure signing for the app and Top Shelf extension. The app uses shared
+App Group and Keychain entitlements; configure those consistently for both targets.
 
-Swift package dependencies are resolved by Xcode. Bundled PyroWave/MoltenVK
-runtime files live in `Runtime/PyroWave`; the embed script signs them at build
-time. Third-party source and its existing license files remain in `ThirdParty`.
+The checked-in app is version 0.1, build 13. Runtime libraries are included in
+`Runtime`; protocol code and tests are under `Sources` and `Tests`.
 
-Build caches, personal Xcode state, provisioning profiles and private signing
-keys are excluded. Configure host, pairing and HomeKit settings on the device.
+Run protocol tests with `swift test` from this directory.
 
-This repository preserves the current project as it stands; some legacy code
-and host maintenance scripts are retained. Those scripts can contain
-machine-specific paths and should be reviewed before use on another host.
+## Use
+
+Enable Remote Play in Steam on the PC. Configure the host and optional HomeKit
+power switch in tvOS Settings, open the app, and complete PIN pairing when asked.
+Put the app in the Apple TV Home Screen's top row to access its Top Shelf games.
+
+See [THIRD_PARTY.md](THIRD_PARTY.md) for dependency attribution.

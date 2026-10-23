@@ -1,0 +1,1 @@
+../Sources/SteamProtocolCore/SteamRecentGames.swift

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationGroupContainerIdentifier</key>
+	<string>group.com.josephhewes.SteamAppTV</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Steam PC</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>bc-250</string>
+			<key>Key</key>
+			<string>SteamTV.hostName</string>
+			<key>Title</key>
+			<string>Computer name</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<string>BC-250</string>
+			<key>Key</key>
+			<string>SteamTV.homeSwitch</string>
+			<key>Title</key>
+			<string>Apple Home switch</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Controller</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<real>0.15</real>
+			<key>Key</key>
+			<string>SteamTV.deadzone</string>
+			<key>Title</key>
+			<string>Stick deadzone</string>
+			<key>Titles</key>
+			<array>
+				<string>5%</string>
+				<string>10%</string>
+				<string>15%</string>
+				<string>20%</string>
+				<string>25%</string>
+			</array>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<real>0.05</real>
+				<real>0.1</real>
+				<real>0.15</real>
+				<real>0.2</real>
+				<real>0.25</real>
+			</array>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

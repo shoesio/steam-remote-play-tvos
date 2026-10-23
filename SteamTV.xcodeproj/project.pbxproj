@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084D48D4C5687552AD190CBA /* Sources/SteamProtocolCore/SteamDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A1C1A467BDB0FEA3ED0F48 /* Sources/SteamProtocolCore/SteamDiscovery.swift */; };
+		0AF38AA1C7A718FC34C8A977 /* Sources/SteamProtocolCore/SteamHEVCAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEABA81F4894DC07C694D51 /* Sources/SteamProtocolCore/SteamHEVCAssembler.swift */; };
+		1079EE747D40CF07ED67BC42 /* Sources/PyroWave/metal/pyrowave_bitstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF16D0ECD37846A7245E4A9E /* Sources/PyroWave/metal/pyrowave_bitstream.cpp */; };
+		11D90187E5BC3314B5DF44FF /* Sources/SteamProtocolCore/SteamCryptography.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D5157A70AABA01089AE5FD /* Sources/SteamProtocolCore/SteamCryptography.swift */; };
+		157CF93030476E7BC1B305F1 /* Sources/SteamProtocolCore/SteamVideoPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184C5242C7D53737557078F /* Sources/SteamProtocolCore/SteamVideoPreferences.swift */; };
+		15F7533691123DD4302394B0 /* Sources/SteamProtocolCore/SteamRecentGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960F3DF2EC95EE1C01E67DAB /* Sources/SteamProtocolCore/SteamRecentGames.swift */; };
+		1C2B0D9CFF859168807FCAC5 /* Sources/SteamProtocolCore/SteamSessionPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4852B689F5E0164FF7746887 /* Sources/SteamProtocolCore/SteamSessionPacket.swift */; };
+		221151B702636B562BDD60F9 /* Sources/SteamCrypto/SteamCrypto.c in Sources */ = {isa = PBXBuildFile; fileRef = C1267D1CB6885CE41EA2C735 /* Sources/SteamCrypto/SteamCrypto.c */; };
+		26C8181D3822D60A29F51BD9 /* SteamTV/SteamControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED07D3A036C45A365234340 /* SteamTV/SteamControllerInput.swift */; };
+		2B4CFDE514F4357B0DAE07F7 /* SteamTVTopShelf/MrDrillerHero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D105609CEFC10BBB67D1D98 /* SteamTVTopShelf/MrDrillerHero.jpg */; };
+		3CD5841DB7FCF5A4F7A3C365 /* Sources/PyroWave/SteamPyroWaveDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = C020FD5FDE9022D4187EFC8A /* Sources/PyroWave/SteamPyroWaveDecoder.mm */; };
+		40D822925121DD0A3ED235AB /* SteamTV/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC98B1169180C66C653F8FB4 /* SteamTV/Assets.xcassets */; };
+		4513F0BB458C9FDE4E9FD136 /* Sources/SteamProtocolCore/SteamStreamingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7223001DAC1E612E94DB34 /* Sources/SteamProtocolCore/SteamStreamingSession.swift */; };
+		591FFBD98D8C92F58093B507 /* SteamTV/Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C79CCFAC6A6A7937D556AB44 /* SteamTV/Settings.bundle */; };
+		5BD1C5D1118D130128759F1C /* SteamTVTopShelf/SteamHero.png in Resources */ = {isa = PBXBuildFile; fileRef = 28705A58649E16133038A25E /* SteamTVTopShelf/SteamHero.png */; };
+		5DA85745E6B25345BD5EF769 /* Sources/SteamProtocolCore/SteamHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D397C6BC4300A24B509CE5C /* Sources/SteamProtocolCore/SteamHost.swift */; };
+		6062D9C4A93383756AFB9DAD /* Sources/PyroWave/metal/pyrowave_decoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848CF93979152F3A0D8D50FC /* Sources/PyroWave/metal/pyrowave_decoder.mm */; };
+		60E72B0E47EB06AEE2E2A4E1 /* Sources/SteamProtocolCore/SteamPyroWaveAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3197F1F1FCAE1F1F65F64944 /* Sources/SteamProtocolCore/SteamPyroWaveAssembler.swift */; };
+		67A7D4A9233F6953F38CDCA8 /* Sources/SteamProtocolCore/SteamPublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD29D014468D1E2C17EC3CF9 /* Sources/SteamProtocolCore/SteamPublicKey.swift */; };
+		68E02C3ACCA3009DC884ECFE /* SteamTV/DiscoveryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E8FCCAA175ECE84B2E49E6 /* SteamTV/DiscoveryModel.swift */; };
+		6AFFD9E077E43A18B4C27DED /* SteamTVTopShelf/SteamRecentLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6C9EA299BA7D846546E6EE /* SteamTVTopShelf/SteamRecentLibrary.swift */; };
+		6F9A8C723B71497CB4AF60B7 /* SteamTVTopShelf/SteamRecentGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF80A013E9FB83021AC06C1 /* SteamTVTopShelf/SteamRecentGames.swift */; };
+		74B2B0E9C1EFE0F0111B5D8A /* SteamTV/HostSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6F76B2AD31706F5883453B /* SteamTV/HostSelectionView.swift */; };
+		756E82FF4F4A8A022300D33A /* SteamTVTopShelf/TopShelfProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539528E0D41BABAAB70A76B1 /* SteamTVTopShelf/TopShelfProvider.swift */; };
+		7740B9FD8CDB478350E20690 /* Runtime/PyroWave/MoltenVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21984E0D568EB71D9EEA03A4 /* Runtime/PyroWave/MoltenVK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		77E477D70C2A2FB103A47D84 /* Sources/SteamProtocolCore/PairingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E6809DBA028274B0DD8EEC /* Sources/SteamProtocolCore/PairingStore.swift */; };
+		88787919EAF601E93C61AED4 /* Sources/SteamProtocolCore/SteamControlWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA688C86828D5951680C744 /* Sources/SteamProtocolCore/SteamControlWindow.swift */; };
+		895ECFD6D22B62E410B3BB16 /* SteamTV/SteamPyroWaveBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD2A4304B839251671733 /* SteamTV/SteamPyroWaveBridge.m */; };
+		8EAA9F78F2F239E92B211269 /* SteamTV/DeviceDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6F33474BC45E9EFA62D1D /* SteamTV/DeviceDiagnostics.swift */; };
+		945846F39059A35E782F8837 /* Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 736D16E7E67C2CCF8944C600 /* Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9AE6EA3FCA07D1452E4A892C /* SteamTV/SteamTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C531405BE5ADA9E3FC497F6F /* SteamTV/SteamTVApp.swift */; };
+		A30915F4E60FB75D250D1753 /* SteamTV/StereoAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8CEFB25BF363635AE553C /* SteamTV/StereoAudioPlayer.swift */; };
+		A480B13A7599A8D78CB6029E /* Sources/SteamProtocolCore/SteamGameExitMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60370204F8DD6349E99BA2C1 /* Sources/SteamProtocolCore/SteamGameExitMonitor.swift */; };
+		A51AB10DDDD05640715F438F /* Sources/SteamProtocolCore/SteamPairing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E5D4A6296D97CE411888D7 /* Sources/SteamProtocolCore/SteamPairing.swift */; };
+		A80F2BA78715D1FD1AF9E081 /* Sources/SteamProtocolCore/SteamRemoteHID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771C6AF94D2AC317D375649E /* Sources/SteamProtocolCore/SteamRemoteHID.swift */; };
+		B46153ECAEBE05D5E53CEB34 /* SteamTV/VideoFrameMailbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A64CA0ACC5FAF11A3537C8 /* SteamTV/VideoFrameMailbox.swift */; };
+		C0DFC5ECA8050EE94ACA1DAE /* SteamTV/SteamRecentLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB9DB8E1E33B19FC223FE57 /* SteamTV/SteamRecentLibrary.swift */; };
+		CEAB12AD1A006C4FCE7EAB98 /* Sources/SteamProtocolCore/SteamAudioConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C450BA2467D5AAA107678 /* Sources/SteamProtocolCore/SteamAudioConfiguration.swift */; };
+		CFA9F56EF223DD86C0263665 /* SteamTV/MetalVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E361723865050AFCD7A90 /* SteamTV/MetalVideoView.swift */; };
+		D08DDE613B8592166842C1EA /* SteamTV/SteamHomePower.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73A8CB22ACBD2455A333C2E /* SteamTV/SteamHomePower.swift */; };
+		D23C3ED3803B0893FEA75E73 /* SteamTVTopShelf.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F3359894334AE5458E1EAF3D /* SteamTVTopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D572CBB2CC5862EAA396C166 /* Sources/SteamProtocolCore/VideoDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582C1710ED7436FD89C41BC /* Sources/SteamProtocolCore/VideoDecoder.swift */; };
+		D75A9F75A086B522B692A9A4 /* Sources/PyroWave/metal/pyrowave_common.mm in Sources */ = {isa = PBXBuildFile; fileRef = 517DB88C114A1E4F4D7737D0 /* Sources/PyroWave/metal/pyrowave_common.mm */; };
+		D9B9FCA1944901DA4CD6CBFD /* Sources/SteamProtocolCore/SteamSessionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE67BE3094CB3AFBAACF98F /* Sources/SteamProtocolCore/SteamSessionRequest.swift */; };
+		DA203F79E8BF55B224EE5A96 /* Sources/PyroWave/CloudNow/CNMoonlightPyroWaveDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6E403C254273C6550D636 /* Sources/PyroWave/CloudNow/CNMoonlightPyroWaveDecoder.m */; };
+		DAFC74C8B38545403280FFAD /* Sources/SteamProtocolCore/DiscoveryPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A3F274BC6610FF0C2F36DB /* Sources/SteamProtocolCore/DiscoveryPacket.swift */; };
+		DE623E9825BC1A8FB68C973F /* Sources/SteamProtocolCore/SteamDatagramSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E46A87E6D7848DB38C2EA /* Sources/SteamProtocolCore/SteamDatagramSocket.swift */; };
+		E6D80DADA44C474223F77AD3 /* Sources/SteamProtocolCore/OpusStereoDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43155B61BD67DD7A8F6D70C2 /* Sources/SteamProtocolCore/OpusStereoDecoder.swift */; };
+		EB04B455D2B83A256670D6A4 /* SteamTV/SteamSharedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DFC795D3EF968C1D80CB10 /* SteamTV/SteamSharedSettings.swift */; };
+		F15BAFBFED24B21497BCE0AF /* Sources/SteamProtocolCore/SteamSessionOwnership.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95035D997B2592A6619D2A09 /* Sources/SteamProtocolCore/SteamSessionOwnership.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCA370FA075707723D529BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 481B465E60A96525FE9E7EE8;
+			remoteInfo = SteamTVTopShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D6F697779609FADD354982B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D23C3ED3803B0893FEA75E73 /* SteamTVTopShelf.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911D28EB09AC3146538FBB71 /* Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				945846F39059A35E782F8837 /* Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib in Frameworks */,
+				7740B9FD8CDB478350E20690 /* Runtime/PyroWave/MoltenVK.framework in Frameworks */,
+			);
+			name = Frameworks;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0112DAE3F84CB4DF5179BE01 /* SteamTV/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SteamTV/Info.plist; sourceTree = "<group>"; };
+		0184C5242C7D53737557078F /* Sources/SteamProtocolCore/SteamVideoPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamVideoPreferences.swift; sourceTree = "<group>"; };
+		069C450BA2467D5AAA107678 /* Sources/SteamProtocolCore/SteamAudioConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamAudioConfiguration.swift; sourceTree = "<group>"; };
+		06E5D4A6296D97CE411888D7 /* Sources/SteamProtocolCore/SteamPairing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamPairing.swift; sourceTree = "<group>"; };
+		0CE67BE3094CB3AFBAACF98F /* Sources/SteamProtocolCore/SteamSessionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamSessionRequest.swift; sourceTree = "<group>"; };
+		18CAD2A4304B839251671733 /* SteamTV/SteamPyroWaveBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteamTV/SteamPyroWaveBridge.m; sourceTree = "<group>"; };
+		1FE6E403C254273C6550D636 /* Sources/PyroWave/CloudNow/CNMoonlightPyroWaveDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sources/PyroWave/CloudNow/CNMoonlightPyroWaveDecoder.m; sourceTree = "<group>"; };
+		206E46A87E6D7848DB38C2EA /* Sources/SteamProtocolCore/SteamDatagramSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamDatagramSocket.swift; sourceTree = "<group>"; };
+		21984E0D568EB71D9EEA03A4 /* Runtime/PyroWave/MoltenVK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Runtime/PyroWave/MoltenVK.framework; sourceTree = "<group>"; };
+		28705A58649E16133038A25E /* SteamTVTopShelf/SteamHero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SteamTVTopShelf/SteamHero.png; sourceTree = "<group>"; };
+		3197F1F1FCAE1F1F65F64944 /* Sources/SteamProtocolCore/SteamPyroWaveAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamPyroWaveAssembler.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* SteamTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SteamTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A3F274BC6610FF0C2F36DB /* Sources/SteamProtocolCore/DiscoveryPacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/DiscoveryPacket.swift; sourceTree = "<group>"; };
+		43155B61BD67DD7A8F6D70C2 /* Sources/SteamProtocolCore/OpusStereoDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/OpusStereoDecoder.swift; sourceTree = "<group>"; };
+		4582C1710ED7436FD89C41BC /* Sources/SteamProtocolCore/VideoDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/VideoDecoder.swift; sourceTree = "<group>"; };
+		4852B689F5E0164FF7746887 /* Sources/SteamProtocolCore/SteamSessionPacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamSessionPacket.swift; sourceTree = "<group>"; };
+		4CEABA81F4894DC07C694D51 /* Sources/SteamProtocolCore/SteamHEVCAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamHEVCAssembler.swift; sourceTree = "<group>"; };
+		4D105609CEFC10BBB67D1D98 /* SteamTVTopShelf/MrDrillerHero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SteamTVTopShelf/MrDrillerHero.jpg; sourceTree = "<group>"; };
+		4F6C9EA299BA7D846546E6EE /* SteamTVTopShelf/SteamRecentLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTVTopShelf/SteamRecentLibrary.swift; sourceTree = "<group>"; };
+		4F6F76B2AD31706F5883453B /* SteamTV/HostSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/HostSelectionView.swift; sourceTree = "<group>"; };
+		4FB9DB8E1E33B19FC223FE57 /* SteamTV/SteamRecentLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/SteamRecentLibrary.swift; sourceTree = "<group>"; };
+		517DB88C114A1E4F4D7737D0 /* Sources/PyroWave/metal/pyrowave_common.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Sources/PyroWave/metal/pyrowave_common.mm; sourceTree = "<group>"; };
+		539528E0D41BABAAB70A76B1 /* SteamTVTopShelf/TopShelfProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTVTopShelf/TopShelfProvider.swift; sourceTree = "<group>"; };
+		58E6809DBA028274B0DD8EEC /* Sources/SteamProtocolCore/PairingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/PairingStore.swift; sourceTree = "<group>"; };
+		60370204F8DD6349E99BA2C1 /* Sources/SteamProtocolCore/SteamGameExitMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamGameExitMonitor.swift; sourceTree = "<group>"; };
+		6E7223001DAC1E612E94DB34 /* Sources/SteamProtocolCore/SteamStreamingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamStreamingSession.swift; sourceTree = "<group>"; };
+		6ED07D3A036C45A365234340 /* SteamTV/SteamControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/SteamControllerInput.swift; sourceTree = "<group>"; };
+		6FF80A013E9FB83021AC06C1 /* SteamTVTopShelf/SteamRecentGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTVTopShelf/SteamRecentGames.swift; sourceTree = "<group>"; };
+		736D16E7E67C2CCF8944C600 /* Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib"; sourceTree = "<group>"; };
+		771C6AF94D2AC317D375649E /* Sources/SteamProtocolCore/SteamRemoteHID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamRemoteHID.swift; sourceTree = "<group>"; };
+		848CF93979152F3A0D8D50FC /* Sources/PyroWave/metal/pyrowave_decoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Sources/PyroWave/metal/pyrowave_decoder.mm; sourceTree = "<group>"; };
+		88F6F33474BC45E9EFA62D1D /* SteamTV/DeviceDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/DeviceDiagnostics.swift; sourceTree = "<group>"; };
+		8A7E361723865050AFCD7A90 /* SteamTV/MetalVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/MetalVideoView.swift; sourceTree = "<group>"; };
+		95035D997B2592A6619D2A09 /* Sources/SteamProtocolCore/SteamSessionOwnership.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamSessionOwnership.swift; sourceTree = "<group>"; };
+		960F3DF2EC95EE1C01E67DAB /* Sources/SteamProtocolCore/SteamRecentGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamRecentGames.swift; sourceTree = "<group>"; };
+		9D397C6BC4300A24B509CE5C /* Sources/SteamProtocolCore/SteamHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamHost.swift; sourceTree = "<group>"; };
+		A1E8FCCAA175ECE84B2E49E6 /* SteamTV/DiscoveryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/DiscoveryModel.swift; sourceTree = "<group>"; };
+		A7D5157A70AABA01089AE5FD /* Sources/SteamProtocolCore/SteamCryptography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamCryptography.swift; sourceTree = "<group>"; };
+		B73A8CB22ACBD2455A333C2E /* SteamTV/SteamHomePower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/SteamHomePower.swift; sourceTree = "<group>"; };
+		B8A64CA0ACC5FAF11A3537C8 /* SteamTV/VideoFrameMailbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/VideoFrameMailbox.swift; sourceTree = "<group>"; };
+		B9A1C1A467BDB0FEA3ED0F48 /* Sources/SteamProtocolCore/SteamDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamDiscovery.swift; sourceTree = "<group>"; };
+		C020FD5FDE9022D4187EFC8A /* Sources/PyroWave/SteamPyroWaveDecoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Sources/PyroWave/SteamPyroWaveDecoder.mm; sourceTree = "<group>"; };
+		C1267D1CB6885CE41EA2C735 /* Sources/SteamCrypto/SteamCrypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sources/SteamCrypto/SteamCrypto.c; sourceTree = "<group>"; };
+		C531405BE5ADA9E3FC497F6F /* SteamTV/SteamTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/SteamTVApp.swift; sourceTree = "<group>"; };
+		C79CCFAC6A6A7937D556AB44 /* SteamTV/Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SteamTV/Settings.bundle; sourceTree = "<group>"; };
+		D0D8CEFB25BF363635AE553C /* SteamTV/StereoAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/StereoAudioPlayer.swift; sourceTree = "<group>"; };
+		DC98B1169180C66C653F8FB4 /* SteamTV/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SteamTV/Assets.xcassets; sourceTree = "<group>"; };
+		DD29D014468D1E2C17EC3CF9 /* Sources/SteamProtocolCore/SteamPublicKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamPublicKey.swift; sourceTree = "<group>"; };
+		E3DFC795D3EF968C1D80CB10 /* SteamTV/SteamSharedSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamTV/SteamSharedSettings.swift; sourceTree = "<group>"; };
+		EF16D0ECD37846A7245E4A9E /* Sources/PyroWave/metal/pyrowave_bitstream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sources/PyroWave/metal/pyrowave_bitstream.cpp; sourceTree = "<group>"; };
+		F3359894334AE5458E1EAF3D /* SteamTVTopShelf.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = SteamTVTopShelf.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA688C86828D5951680C744 /* Sources/SteamProtocolCore/SteamControlWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/SteamProtocolCore/SteamControlWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64292B1C2B2E13EAD8788FC8 = {
+			isa = PBXGroup;
+			children = (
+				1FE6E403C254273C6550D636 /* Sources/PyroWave/CloudNow/CNMoonlightPyroWaveDecoder.m */,
+				C020FD5FDE9022D4187EFC8A /* Sources/PyroWave/SteamPyroWaveDecoder.mm */,
+				EF16D0ECD37846A7245E4A9E /* Sources/PyroWave/metal/pyrowave_bitstream.cpp */,
+				517DB88C114A1E4F4D7737D0 /* Sources/PyroWave/metal/pyrowave_common.mm */,
+				848CF93979152F3A0D8D50FC /* Sources/PyroWave/metal/pyrowave_decoder.mm */,
+				C1267D1CB6885CE41EA2C735 /* Sources/SteamCrypto/SteamCrypto.c */,
+				39A3F274BC6610FF0C2F36DB /* Sources/SteamProtocolCore/DiscoveryPacket.swift */,
+				43155B61BD67DD7A8F6D70C2 /* Sources/SteamProtocolCore/OpusStereoDecoder.swift */,
+				58E6809DBA028274B0DD8EEC /* Sources/SteamProtocolCore/PairingStore.swift */,
+				069C450BA2467D5AAA107678 /* Sources/SteamProtocolCore/SteamAudioConfiguration.swift */,
+				FCA688C86828D5951680C744 /* Sources/SteamProtocolCore/SteamControlWindow.swift */,
+				A7D5157A70AABA01089AE5FD /* Sources/SteamProtocolCore/SteamCryptography.swift */,
+				206E46A87E6D7848DB38C2EA /* Sources/SteamProtocolCore/SteamDatagramSocket.swift */,
+				B9A1C1A467BDB0FEA3ED0F48 /* Sources/SteamProtocolCore/SteamDiscovery.swift */,
+				60370204F8DD6349E99BA2C1 /* Sources/SteamProtocolCore/SteamGameExitMonitor.swift */,
+				4CEABA81F4894DC07C694D51 /* Sources/SteamProtocolCore/SteamHEVCAssembler.swift */,
+				9D397C6BC4300A24B509CE5C /* Sources/SteamProtocolCore/SteamHost.swift */,
+				06E5D4A6296D97CE411888D7 /* Sources/SteamProtocolCore/SteamPairing.swift */,
+				DD29D014468D1E2C17EC3CF9 /* Sources/SteamProtocolCore/SteamPublicKey.swift */,
+				3197F1F1FCAE1F1F65F64944 /* Sources/SteamProtocolCore/SteamPyroWaveAssembler.swift */,
+				960F3DF2EC95EE1C01E67DAB /* Sources/SteamProtocolCore/SteamRecentGames.swift */,
+				771C6AF94D2AC317D375649E /* Sources/SteamProtocolCore/SteamRemoteHID.swift */,
+				95035D997B2592A6619D2A09 /* Sources/SteamProtocolCore/SteamSessionOwnership.swift */,
+				4852B689F5E0164FF7746887 /* Sources/SteamProtocolCore/SteamSessionPacket.swift */,
+				0CE67BE3094CB3AFBAACF98F /* Sources/SteamProtocolCore/SteamSessionRequest.swift */,
+				6E7223001DAC1E612E94DB34 /* Sources/SteamProtocolCore/SteamStreamingSession.swift */,
+				0184C5242C7D53737557078F /* Sources/SteamProtocolCore/SteamVideoPreferences.swift */,
+				4582C1710ED7436FD89C41BC /* Sources/SteamProtocolCore/VideoDecoder.swift */,
+				88F6F33474BC45E9EFA62D1D /* SteamTV/DeviceDiagnostics.swift */,
+				A1E8FCCAA175ECE84B2E49E6 /* SteamTV/DiscoveryModel.swift */,
+				4F6F76B2AD31706F5883453B /* SteamTV/HostSelectionView.swift */,
+				8A7E361723865050AFCD7A90 /* SteamTV/MetalVideoView.swift */,
+				6ED07D3A036C45A365234340 /* SteamTV/SteamControllerInput.swift */,
+				B73A8CB22ACBD2455A333C2E /* SteamTV/SteamHomePower.swift */,
+				18CAD2A4304B839251671733 /* SteamTV/SteamPyroWaveBridge.m */,
+				4FB9DB8E1E33B19FC223FE57 /* SteamTV/SteamRecentLibrary.swift */,
+				E3DFC795D3EF968C1D80CB10 /* SteamTV/SteamSharedSettings.swift */,
+				C531405BE5ADA9E3FC497F6F /* SteamTV/SteamTVApp.swift */,
+				D0D8CEFB25BF363635AE553C /* SteamTV/StereoAudioPlayer.swift */,
+				B8A64CA0ACC5FAF11A3537C8 /* SteamTV/VideoFrameMailbox.swift */,
+				0112DAE3F84CB4DF5179BE01 /* SteamTV/Info.plist */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+				84446887307E9E8A00AA80CC /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		84446887307E9E8A00AA80CC /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				DC98B1169180C66C653F8FB4 /* SteamTV/Assets.xcassets */,
+				C79CCFAC6A6A7937D556AB44 /* SteamTV/Settings.bundle */,
+				736D16E7E67C2CCF8944C600 /* Runtime/PyroWave/libpyrowave-shared.0.4.0.dylib */,
+				21984E0D568EB71D9EEA03A4 /* Runtime/PyroWave/MoltenVK.framework */,
+				6FF80A013E9FB83021AC06C1 /* SteamTVTopShelf/SteamRecentGames.swift */,
+				4F6C9EA299BA7D846546E6EE /* SteamTVTopShelf/SteamRecentLibrary.swift */,
+				539528E0D41BABAAB70A76B1 /* SteamTVTopShelf/TopShelfProvider.swift */,
+				28705A58649E16133038A25E /* SteamTVTopShelf/SteamHero.png */,
+				4D105609CEFC10BBB67D1D98 /* SteamTVTopShelf/MrDrillerHero.jpg */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* SteamTV.app */,
+				F3359894334AE5458E1EAF3D /* SteamTVTopShelf.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* SteamTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC1F132A3B6D94B1DF33607 /* Build configuration list for PBXNativeTarget "SteamTV" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+				911D28EB09AC3146538FBB71 /* Frameworks */,
+				6D6F697779609FADD354982B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				662BF4F93A2D67AA51A63B4D /* PBXTargetDependency */,
+			);
+			name = SteamTV;
+			productName = SteamTV;
+			productReference = 38A007151ABE87CC01A5B6E9 /* SteamTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		481B465E60A96525FE9E7EE8 /* SteamTVTopShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897CE3353DF4FC8F3CEA9B3B /* Build configuration list for PBXNativeTarget "SteamTVTopShelf" */;
+			buildPhases = (
+				A32AD59716261A2F186B0101 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				D729B8125343914FEABAD9BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteamTVTopShelf;
+			productName = SteamTVTopShelf;
+			productReference = F3359894334AE5458E1EAF3D /* SteamTVTopShelf.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FBD3510CED826C9DAA696E48 /* Build configuration list for PBXProject "SteamTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64292B1C2B2E13EAD8788FC8;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* SteamTV */,
+				481B465E60A96525FE9E7EE8 /* SteamTVTopShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D822925121DD0A3ED235AB /* SteamTV/Assets.xcassets in Resources */,
+				591FFBD98D8C92F58093B507 /* SteamTV/Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D729B8125343914FEABAD9BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD1C5D1118D130128759F1C /* SteamTVTopShelf/SteamHero.png in Resources */,
+				2B4CFDE514F4357B0DAE07F7 /* SteamTVTopShelf/MrDrillerHero.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32AD59716261A2F186B0101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9A8C723B71497CB4AF60B7 /* SteamTVTopShelf/SteamRecentGames.swift in Sources */,
+				6AFFD9E077E43A18B4C27DED /* SteamTVTopShelf/SteamRecentLibrary.swift in Sources */,
+				756E82FF4F4A8A022300D33A /* SteamTVTopShelf/TopShelfProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA203F79E8BF55B224EE5A96 /* Sources/PyroWave/CloudNow/CNMoonlightPyroWaveDecoder.m in Sources */,
+				3CD5841DB7FCF5A4F7A3C365 /* Sources/PyroWave/SteamPyroWaveDecoder.mm in Sources */,
+				1079EE747D40CF07ED67BC42 /* Sources/PyroWave/metal/pyrowave_bitstream.cpp in Sources */,
+				D75A9F75A086B522B692A9A4 /* Sources/PyroWave/metal/pyrowave_common.mm in Sources */,
+				6062D9C4A93383756AFB9DAD /* Sources/PyroWave/metal/pyrowave_decoder.mm in Sources */,
+				221151B702636B562BDD60F9 /* Sources/SteamCrypto/SteamCrypto.c in Sources */,
+				DAFC74C8B38545403280FFAD /* Sources/SteamProtocolCore/DiscoveryPacket.swift in Sources */,
+				E6D80DADA44C474223F77AD3 /* Sources/SteamProtocolCore/OpusStereoDecoder.swift in Sources */,
+				77E477D70C2A2FB103A47D84 /* Sources/SteamProtocolCore/PairingStore.swift in Sources */,
+				CEAB12AD1A006C4FCE7EAB98 /* Sources/SteamProtocolCore/SteamAudioConfiguration.swift in Sources */,
+				88787919EAF601E93C61AED4 /* Sources/SteamProtocolCore/SteamControlWindow.swift in Sources */,
+				11D90187E5BC3314B5DF44FF /* Sources/SteamProtocolCore/SteamCryptography.swift in Sources */,
+				DE623E9825BC1A8FB68C973F /* Sources/SteamProtocolCore/SteamDatagramSocket.swift in Sources */,
+				084D48D4C5687552AD190CBA /* Sources/SteamProtocolCore/SteamDiscovery.swift in Sources */,
+				A480B13A7599A8D78CB6029E /* Sources/SteamProtocolCore/SteamGameExitMonitor.swift in Sources */,
+				0AF38AA1C7A718FC34C8A977 /* Sources/SteamProtocolCore/SteamHEVCAssembler.swift in Sources */,
+				5DA85745E6B25345BD5EF769 /* Sources/SteamProtocolCore/SteamHost.swift in Sources */,
+				A51AB10DDDD05640715F438F /* Sources/SteamProtocolCore/SteamPairing.swift in Sources */,
+				67A7D4A9233F6953F38CDCA8 /* Sources/SteamProtocolCore/SteamPublicKey.swift in Sources */,
+				60E72B0E47EB06AEE2E2A4E1 /* Sources/SteamProtocolCore/SteamPyroWaveAssembler.swift in Sources */,
+				15F7533691123DD4302394B0 /* Sources/SteamProtocolCore/SteamRecentGames.swift in Sources */,
+				A80F2BA78715D1FD1AF9E081 /* Sources/SteamProtocolCore/SteamRemoteHID.swift in Sources */,
+				F15BAFBFED24B21497BCE0AF /* Sources/SteamProtocolCore/SteamSessionOwnership.swift in Sources */,
+				1C2B0D9CFF859168807FCAC5 /* Sources/SteamProtocolCore/SteamSessionPacket.swift in Sources */,
+				D9B9FCA1944901DA4CD6CBFD /* Sources/SteamProtocolCore/SteamSessionRequest.swift in Sources */,
+				4513F0BB458C9FDE4E9FD136 /* Sources/SteamProtocolCore/SteamStreamingSession.swift in Sources */,
+				157CF93030476E7BC1B305F1 /* Sources/SteamProtocolCore/SteamVideoPreferences.swift in Sources */,
+				D572CBB2CC5862EAA396C166 /* Sources/SteamProtocolCore/VideoDecoder.swift in Sources */,
+				8EAA9F78F2F239E92B211269 /* SteamTV/DeviceDiagnostics.swift in Sources */,
+				68E02C3ACCA3009DC884ECFE /* SteamTV/DiscoveryModel.swift in Sources */,
+				74B2B0E9C1EFE0F0111B5D8A /* SteamTV/HostSelectionView.swift in Sources */,
+				CFA9F56EF223DD86C0263665 /* SteamTV/MetalVideoView.swift in Sources */,
+				26C8181D3822D60A29F51BD9 /* SteamTV/SteamControllerInput.swift in Sources */,
+				D08DDE613B8592166842C1EA /* SteamTV/SteamHomePower.swift in Sources */,
+				895ECFD6D22B62E410B3BB16 /* SteamTV/SteamPyroWaveBridge.m in Sources */,
+				C0DFC5ECA8050EE94ACA1DAE /* SteamTV/SteamRecentLibrary.swift in Sources */,
+				EB04B455D2B83A256670D6A4 /* SteamTV/SteamSharedSettings.swift in Sources */,
+				9AE6EA3FCA07D1452E4A892C /* SteamTV/SteamTVApp.swift in Sources */,
+				A30915F4E60FB75D250D1753 /* SteamTV/StereoAudioPlayer.swift in Sources */,
+				B46153ECAEBE05D5E53CEB34 /* SteamTV/VideoFrameMailbox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		662BF4F93A2D67AA51A63B4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 481B465E60A96525FE9E7EE8 /* SteamTVTopShelf */;
+			targetProxy = BCA370FA075707723D529BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D1F303AA50FFE00D10FD4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = SteamTVTopShelf/TopShelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SteamTVTopShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.HaloCampaignEvolvedAppTV.TopShelf;
+				PRODUCT_NAME = SteamTVTopShelf;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		5283471FF90C511CFE244FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 286K3K83X3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = appletvos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		59E1BEE911F66DA37FEBACDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = SteamTV/SteamTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/SteamCrypto/include",
+					"$(SRCROOT)/Sources/PyroWave",
+					"$(SRCROOT)/Sources/PyroWave/metal",
+					"$(SRCROOT)/Sources/PyroWave/CloudNow",
+				);
+				INFOPLIST_FILE = SteamTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.HaloCampaignEvolvedAppTV;
+				PRODUCT_NAME = SteamTV;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SteamTV/SteamTV-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		AB52CB08E0FDF02BF6C67C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 286K3K83X3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		E56CFF1BA6CB93CCCF753369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = SteamTVTopShelf/TopShelf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SteamTVTopShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.HaloCampaignEvolvedAppTV.TopShelf;
+				PRODUCT_NAME = SteamTVTopShelf;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		F4C425279CD5DDD18FD6DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = SteamTV/SteamTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sources/SteamCrypto/include",
+					"$(SRCROOT)/Sources/PyroWave",
+					"$(SRCROOT)/Sources/PyroWave/metal",
+					"$(SRCROOT)/Sources/PyroWave/CloudNow",
+				);
+				INFOPLIST_FILE = SteamTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephhewes.HaloCampaignEvolvedAppTV;
+				PRODUCT_NAME = SteamTV;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SteamTV/SteamTV-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897CE3353DF4FC8F3CEA9B3B /* Build configuration list for PBXNativeTarget "SteamTVTopShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E56CFF1BA6CB93CCCF753369 /* Debug */,
+				2D1F303AA50FFE00D10FD4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC1F132A3B6D94B1DF33607 /* Build configuration list for PBXNativeTarget "SteamTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E1BEE911F66DA37FEBACDC /* Debug */,
+				F4C425279CD5DDD18FD6DC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD3510CED826C9DAA696E48 /* Build configuration list for PBXProject "SteamTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB52CB08E0FDF02BF6C67C33 /* Debug */,
+				5283471FF90C511CFE244FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
